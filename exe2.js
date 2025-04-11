@@ -1,7 +1,9 @@
-for (let i = 0; i <= 20; i++) {
+let numero = 1;
 
-    if (i % 2 != 0) {
-        console.log(i);
-
+while (numero <= 15) {
+    console.log("Número:", numero);
+    numero++;
+    if(numero % 2 !== 0){
+        console.log(numero);
     }
 }
