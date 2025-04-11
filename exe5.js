@@ -1,6 +1,6 @@
-let contador = 8;
-while (contador >= 0) {
-    console.log(contador);
-    contador--;
+let numb = 8;
+while (numb >= 0) {
+    console.log(numb);
+    numb--;
 }
 console.log("FIM");
