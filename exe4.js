@@ -1,6 +1,6 @@
+let i = 1;
 let numero = 5;
-
-for (let i = 1; i<= 10; i++) {
-   resultado = i * 5; 
-   console.log(`5 x ${i} = ${5 * i}`);
+while (i <= 10) {
+   console.log(`${numero} x ${i} = ${numero * i}`);
+   i++;
 }
